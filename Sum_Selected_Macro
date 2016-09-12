@@ -1,0 +1,5 @@
+Sub mySum()
+Dim MyDataObj As New DataObject
+MyDataObj.SetText Application.Sum(Selection)
+MyDataObj.PutInClipboard
+End Sub
